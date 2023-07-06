@@ -1,0 +1,33 @@
+li,
+a  {
+	color: rgb(110, 0, 190);
+}
+
+h1,
+h2 {
+	color: #00f;
+}
+
+#submit {
+	background: rgb(0, 200, 0);
+}
+
+span {
+	color: #f00;
+}
+
+ul .size {
+	color: rgb(255, 0, 200);
+}
+
+input[type="email"] {
+	background: #805000;
+}
+
+a[href$=".org"] {
+	color: rgb(255, 0, 190);
+}
+
+h2.bright {
+	color: rgb(0, 255, 255);
+}

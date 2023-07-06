@@ -6,8 +6,9 @@ div {
 	padding: 20px 40px 20px;
 	background: #fff;
 	width: 600px;
+	height: 100px;
 	border-radius: 15px;
-	margin: 60px auto auto auto;
+	margin: 40px auto 600px auto;
 	height: auto;
 	font-family: sans-serif;
 }

@@ -25,6 +25,11 @@ header {
 	padding: 200px;
 }
 
+p.typo {
+	border-bottom: 1px solid white;
+	padding-bottom: 20px;
+}
+
 /* STYLING FOR THE MAIN CONTENT */
 h2.time {
 	text-transform: uppercase;

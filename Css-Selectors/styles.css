@@ -1,0 +1,24 @@
+hr + p {
+	color:#f00;
+}
+
+h2 ~ p {
+	font-size: 20px;
+}
+
+a[href*="nowhere"]:hover {
+	color: rgb(200, 0, 255);
+}
+
+input[type="checkbox"]:checked {
+	box-shadow: 0 0 0 3px orange;
+}
+
+.blah li:nth-of-type(2n) {
+	background-color: #6600ff;
+}
+
+p::first-letter {
+	color: rgb(0, 0, 255);
+	font-size: 30px;
+}

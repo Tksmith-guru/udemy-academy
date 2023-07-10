@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+	padding: auto;
+}
+
+/* STYLING FOR THE HEADER */
+.heading {
+	text-align:center;
+	margin-top: 0;
+	color: #fff;
+	font-family: serif;
+	font-weight: bold;
+}
+
+div.single {
+	text-align: center;
+	font-size: 10px;
+	width: 530px;
+	margin:  auto auto auto;
+	color: rgb(255, 255, 255);
+}
+
+header {
+	background: rgb(140, 0, 255);
+	padding: 200px;
+}
+
+/* STYLING FOR THE MAIN CONTENT */
+h2.time {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 40px;
+}
+
+span.about {
+	color:orangered;
+}
+
+
+div.main {
+	width: 700px;
+	margin: 0 auto;
+}
+
+h3.headline {
+	text-transform: uppercase;
+	margin: 40px auto;
+	font-size: 12px;
+	width: 699px;
+}
+
+.transform,
+.uppercase {
+	color: orangered;
+}
+
+.content {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+div.quote {
+	font-style: italic;
+	margin-left: 40px;
+	width: 650px;
+	font-size: 13px;
+	border-left: 1px solid rgb(190, 0, 0);
+	padding: 0 0 0 10px;
+}
+
+span.creator {
+	font-family: sans-serif;
+	font-weight: 100;
+	margin-left: 70px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	display: block;
+}
+
+.section {
+	text-transform: capitalize;
+	border-top: 1px solid #D3D3D3;
+	padding-top: 40px;
+}
+
+.font {
+	color: #000;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+span.new-sect {
+	color: orangered;
+}
+
+span.size {
+	color: orangered;
+}
+
+/* STYLING FOR THE FOOTER */
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul {
+	display: inline-block;
+	list-style: none;
+	width: 1200px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+footer {
+	margin: 0;
+	background: rgb(140, 0, 255);
+	margin-top: 40px;
+}

@@ -1,0 +1,222 @@
+/* STYLING FOR THE NAV BAR */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a.just {
+	color: #FFFFF7;
+}
+
+ul.nav {
+	list-style: none;
+	display: inline-block;
+}
+
+nav li {
+	display: inline-block;
+}
+
+div.group {
+	margin: 0 auto;
+	width: 700px;
+}
+
+div.contact {
+	width: 600px;
+	text-align: right;
+	margin-right: 16px;
+}
+
+div a.this {
+	background: #fff;
+	font-family: 'sans';
+	font-weight: bold;
+	padding: 10px 12px 10px 12px;
+	color: #F89880;
+}
+
+div.haz {
+	width: 400px;
+	text-align: right;
+	margin-left: 40px;
+}
+
+/* STYLING FOR THE HEADER CONTENT */
+.scientist {
+	width: 700px;
+	font-size: 36.99px;
+	font-family: sans-serif;
+	margin: 50px 0;
+	color: #FFFFF7;
+}
+
+span.speaker {
+	font-style: italic;
+}
+
+h2.mission {
+	float: left;
+	margin-bottom: 60px;
+	padding-top: 30px;
+	color: #FFFFF7;
+}
+
+p.statement {
+	width: 370px;
+	font-size: 19px;
+	margin-left: 300px;
+	margin-bottom: 60px;
+	padding-top: 32px;
+	color: #FFFFF7;
+}
+
+h2.special {
+	display: inline-block;
+	color: #FFFFF7;
+}
+
+/* div.character {
+	padding-top: 5px;
+	display: inline-block;
+}
+*/
+ul.features a {
+	text-decoration: none;
+	color: #FFFFF7;
+}
+
+ul.features {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.features li {
+	margin: 10px 0;
+}
+
+ul.feature {
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+}
+
+ul.feature a {
+	text-decoration: none;
+	color: #FFFFF7;
+}
+
+ul.feature li {
+	margin: 10px 0;
+}
+
+div.together {
+	padding-left: 257px;
+	margin-top: -65px;
+}
+
+header {
+	background: #FFA389;
+}
+
+/* STYLING FOR THE MAIN SECTION */
+main div.tech {
+	display: inline-block;
+	padding: 0 40px 0 0;
+}
+
+main div.intell {
+	width: 500px;
+	margin-left: 300px;
+	display: inline-block;
+}
+
+div.intell h3 {
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+
+main p + span {
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+main div.white {
+	background: #FFFFFF;
+	padding: 50px 0;
+	margin: 0;
+}
+
+main p {
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+/* STYLING FOR THE SECOND PART OF MAIN */
+div.group-container ul.year {
+	margin-left: 270px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	list-style: none;
+}
+
+div.group-container h2.events {
+	display: inline-block;
+	float: left;
+	margin-top: -6px;
+}
+
+div.group-container {
+	margin: 0;
+	padding: 100px;
+	background: #fdf0e6;
+}
+
+ul.year a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul.year span.city {
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+ul.year li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* STYLING FOR THE FOOTER */
+footer div {
+	margin-left: 550px;
+}
+
+img {
+	width: 30px;
+	margin-top: 10px;
+	margin: 10px 5px 5px 5px;
+	margin-bottom: 5px;
+	padding-top: 20px;
+}
+
+footer {
+	background: black;
+	margin: 0;
+	padding: 10px;
+}
+
+h4.love {
+	color: white;
+	margin-top: 3px;
+}
+
+h4.love span {
+	color: red;
+}

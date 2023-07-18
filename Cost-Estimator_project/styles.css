@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:ital,wght@1,100;1,700&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,400;1,800&display=swap');
+
+body {
+	background-color: rgb(233, 223, 255);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+body h1 {
+	color: rgb(83, 46, 156);
+	margin-bottom: 50px;
+}
+
+body div.container {
+	background-color: white;
+	width: 100%;
+	max-width: 900px;
+	padding: 0 0 64px 0;
+	border-radius: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+div.container div.tabs {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	position: relative;
+}
+
+div.tabs p {
+	text-transform: uppercase;
+	padding: 16px;
+	color: rgb(200, 175, 255);
+	font-weight: bold;
+	position: relative;
+}
+
+div.tabs p:hover {
+	color: rgb(83, 49, 156);
+	cursor: pointer;
+}
+
+div.tabs p.active {
+	color: rgb(83, 49, 156);
+}
+
+div.container div.border-line {
+	background-color: rgb(231, 231, 231);
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	right: 0;
+} 
+
+div.tabs p.active::before {
+	content:"";
+	width: 200%;
+	height: 4px;
+	background-color: purple;
+	position: absolute;
+	bottom: -20px;
+	left: -17px;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+div.toggle-wrapper img {
+	width: 50px;
+	height: 50px;
+	margin: 0 16px;
+}
+
+div.toggle-wrapper {
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+div.toggle-wrapper a {
+	text-decoration: none;
+	color: #fff;
+}
+
+div.toggle-wrapper div.links {
+	padding: 4px 7px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: rgb(83, 49, 156);
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 20px;
+}
+
+div.toggle-wrapper a span {
+	color: rgb(83, 49, 156);
+	background-color: #fff;
+	padding: 0 20px 0 10px;
+	border-radius: 10px;
+	margin: 0 0 0 12px;
+}
+
+div.container div.price {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(250, 247, 255);
+	margin: 10px 150px 10px 150px;
+	border-radius: 20px;
+}
+
+div.price h2 {
+	text-transform: uppercase;
+	margin: 19px 0 -30px 0;
+	font-size: 14px;
+}
+
+div.price p {
+	font-size: 54px;
+	font-weight: bold;
+	color: rgb(83, 49,156);
+}
+
+div.container div.period {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 70px;
+}
+
+div.period p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.period p {
+	margin: auto 35px auto 40px;
+}
+
+div.container div.slider {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.slider div.bar {
+	width: 89.5%;
+	margin: 30px auto;
+	height: 16px;
+	background-color: rgb(248, 248, 248);
+	border: 1px solid rgb(210, 210, 210);
+	border-radius: 20px;
+	position: relative;
+}
+
+div.slider div.progress {
+	width: 30%;
+	height: 16px;
+	background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 10, 74, 1) 36%,
+    rgba(83, 49, 156, 1) 100%
+  );
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+div.slider div.point {
+	width: 24px;
+	height: 24px;
+	background-color: rgb(83, 49, 156);
+	border-radius: 50%;
+	border: 2px solid #fff;
+	position: absolute;
+	top: -4px;
+	left: 28.5%;
+	transition: 0.15s transform ease;
+}
+
+div.slider div.point:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+div.container div.scale {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+div.scale a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+div.container div.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+div.cards div.card1 {
+	margin: 10px 30px 10px 30px;
+	background: rgb(250, 247, 255);
+	padding: 0 32px 32px 32px;
+	border-radius: 20px;
+	box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
+}
+
+div.cards div.card2 {
+	margin: 10px 30px 10px 30px;
+	background: rgb(250, 247, 255);
+	padding: 45px 32px 32px 32px;
+	border-radius: 20px;
+	box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+div.card1 div.top-section,
+div.card2 div.top-section {
+	text-transform: uppercase;
+}
+
+div.card1,
+div.card2 {
+	color: rgb(83, 49, 156);
+	font-weight: bold;
+}
+
+.card2:hover {
+	transform: translateY(-8px);
+}
+
+.card1:hover {
+	transform: translateY(-8px);
+}
+
+p span {
+	font-size: 54px;
+	color: #000;
+	font-weight: bold;
+}
+
+div.top-section div.savings {
+	color: #fff;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	padding: 2px 0 15px 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 10, 74, 1) 36%,
+    rgba(83, 49, 156, 1) 100%
+  );
+}
+
+div.cards button {
+	color: #fff;
+	background: rgb(83, 49, 156);
+	padding:10px;
+	border: none;
+	text-transform: capitalize;
+	border-radius: 8px;
+}
+
+div.cards hr {
+	width: 30%;
+	border: 1px solid rgb(210, 210, 210);
+	border-radius: 2px;
+	transition: 0.15s transform ease;
+}
+
+div.cards button:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+}

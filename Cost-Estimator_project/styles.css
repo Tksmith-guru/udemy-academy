@@ -195,6 +195,21 @@ div.container div.scale {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	width: 100%;
+}
+
+@media only screen and (max-width: 509px) {
+	div.container div.scale {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 14px;
+	}
+
+	div.container div.slider {
+		width: 100%;
+		max-width: 700px;
+	}
 }
 
 div.scale a {
@@ -206,11 +221,22 @@ div.scale a {
 
 div.container div.cards {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	padding: 0 20px;
 	text-align: center;
 	margin-top: 40px;
+}
+
+@media only screen and (max-width: 820px) {
+	div.container div.cards {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		width: 100%;
+		max-width: 500px;
+		padding: 0 20px 0 10px;
+	}
 }
 
 div.cards div.card1 {

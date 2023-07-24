@@ -113,6 +113,8 @@ div.container div.price {
 	background-color: rgb(250, 247, 255);
 	margin: 10px 150px 10px 150px;
 	border-radius: 20px;
+	width: 100%;
+	max-width: 200px;
 }
 
 div.price h2 {
@@ -203,7 +205,7 @@ div.container div.scale {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 14px;
+		gap: 19px;
 	}
 
 	div.container div.slider {

@@ -47,7 +47,25 @@ h2 {
 	display: inline-block;
 }
 
-footer {
+@media only screen and (max-width: 900px) {
+	div.container {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	div.container {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	 footer div#mine {
+		margin-left: 18px;
+	}
+}
+
+footer div.foot {
 	width: 350px;
 	text-align: left;
 	margin-left: 220px;

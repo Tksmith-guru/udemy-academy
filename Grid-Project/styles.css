@@ -41,7 +41,9 @@ header.navbar nav.right {
 	align-items: center;
 }
 
-.hamburger .bar {
+.bar1,
+.bar2,
+.bar3 {
 	background-color: #000;
 	width: 36px;
 	height: 4px;
@@ -53,6 +55,89 @@ header.navbar nav.right {
 	width: 50px;
 	height: 50px;
 	display: none;
+}
+
+.hamburger:hover {
+	cursor: pointer;
+}
+
+@keyframes fadeBar2 {
+	from {
+		transform: scaleX(1);
+		opacity: 1;
+	}
+	to {
+		transform: scaleX(0);
+		opacity: 0;
+	}
+}
+
+@keyframes flipBar1 {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(45deg) translate(4px, 10px);
+	}
+}
+
+@keyframes flipBar3 {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(-45deg) translate(4px, -10px);
+	}
+}
+
+.animateBar1 {
+	animation: flipBar1 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.animateBar2 {
+	animation: fadeBar2 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.animateBar3 {
+	animation: flipBar3 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.mobileNav {
+	width: 80px;
+	height: 100vh;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 82px;
+	right: -160px;
+	z-index: 2;
+	padding: 16px;
+	transition: transform 0.3s;
+}
+
+.mobileNav img {
+	width: 24px;
+	height: 24px;
+}
+
+.mobileNav a {
+	text-decoration: none;
+	margin: 16px 0;
+	color: #000;
+}
+
+.mobileNav a:hover {
+	text-decoration: underline;
+}
+
+.openDrawer {
+	transform: translate(-160px);
 }
 
 div.project {
